@@ -266,9 +266,7 @@ void mostrar(NO* no){
 }
 int main(void) {
     NO* no = start();
-    int j = 8, X,
-    dadosTeste[10] = {10, 13, 8, 7, 4, 15, 11, 18, 6, 1};
-    int dadosMaiores[27] = {1,30,29,2,3,28,27,4,5,26,25,23,24,6,8,7,23,22,20,15,21,9,11,10,19,17,16};
+    int j = 8, X,dadosTeste[10] = {10, 13, 8, 7, 4, 15, 11, 18, 6, 1};
     while(j){
         inserir(&no,dadosTeste[j]);
         j--;
